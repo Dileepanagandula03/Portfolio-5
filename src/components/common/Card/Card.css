@@ -1,0 +1,36 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #667eea;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #282c34;
+}
+
+.card-content {
+  color: #555;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.card-content p {
+  margin: 0;
+}

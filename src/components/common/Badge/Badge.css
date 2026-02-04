@@ -1,0 +1,39 @@
+.badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.badge-default {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.badge-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.badge-tech {
+  background-color: #667eea;
+  color: white;
+}
+
+.badge-tool {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge-cloud {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
