@@ -21,7 +21,7 @@ function App() {
 
       <nav className="main-nav">
         <div className="nav-content">
-          <div className="logo">Dileep</div>
+          <div className="logo">Dileep Kumar</div>
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#education">Education</a>
@@ -29,7 +29,7 @@ function App() {
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="/Dileep_Data_Engineer_2026.pdf" download className="btn-outline">📥 Download Resume</a>
+            <a href="/Dileep__DataEngineer.pdf" download className="btn-outline"> Download Resume</a>
           </div>
         </div>
       </nav>
@@ -39,7 +39,7 @@ function App() {
         <div className="hero-grid-new">
           <div className="hero-left-new">
             <div className="status-badge">
-              💼 Strategic Data Engineer | 5+ Years | OPT EAD
+               Strategic Data Engineer | 5+ Years | OPT EAD
             </div>
             
             <h1 className="hero-title-new">
@@ -48,7 +48,7 @@ function App() {
             </h1>
 
             <p className="hero-desc">
-              Strategic Data Engineer with 5+ years delivering <span className="highlight-orange">scalable data platforms</span> across healthcare and financial services. Specialized in architecting Medallion (Lakehouse) data models on Azure and Databricks.
+              Strategic Data Engineer with 5+ years delivering <span className="highlight-orange">scalable data platforms</span> across Telecom, Retail, and Financial services. Specialized in architecting Medallion (Lakehouse) data models on Azure and Databricks.
             </p>
 
             <div className="hero-info-cards">
@@ -96,7 +96,7 @@ function App() {
                 <div className="stat-label-hero">AVAILABLE</div>
               </div>
               <div className="stat-box-hero">
-                <div className="stat-num-hero">Austin TX</div>
+                <div className="stat-num-hero">Baltimore MD</div>
                 <div className="stat-label-hero">Location</div>
               </div>
             </div>
@@ -104,7 +104,7 @@ function App() {
             <div className="hero-buttons">
               <a href="#projects" className="btn-primary">🚀 View Projects</a>
               <a href="#contact" className="btn-secondary">💬 Get in Touch</a>
-              <a href="/Dileep_Data_Engineer_2026.pdf" download className="btn-outline">📥 Download Resume</a>
+              <a href="/Dileep__DataEngineer.pdf" download className="btn-outline">📥 Download Resume</a>
             </div>
           </div>
 
@@ -177,17 +177,15 @@ function App() {
               <div className="about-intro-box">
                 <h3>Who I Am</h3>
                 <p className="intro-text">
-                  I'm a <strong>Senior Data Engineer</strong> with over <strong>5 years of experience</strong> designing, 
-                  owning, and operating scalable data pipelines and complex data integrations.
+                  I'm a <strong>Senior Data Engineer</strong> with over <strong>5 years of experience</strong> designing, Building
+                   and operating scalable data pipelines and complex data integrations.
                 </p>
               </div>
-
               <div className="about-description">
                 <p>
                   My expertise lies in workflow orchestration, batch reprocessing, and handling both 
                   structured and unstructured data from diverse sources. I've worked with industry-leading 
-                  companies including <span className="highlight-orange">The Cigna Group</span>, 
-                  <span className="highlight-blue"> State Street Corporation</span>, and 
+                  companies including <span className="highlight-orange">State Street Corporation</span>, and 
                   <span className="highlight-green"> Tech Mahindra</span>.
                 </p>
               </div>
@@ -213,7 +211,7 @@ function App() {
                   <div className="card-icon">🌎</div>
                   <div className="card-content">
                     <div className="card-label">LOCATION</div>
-                    <div className="card-value">Austin, Texas</div>
+                    <div className="card-value">Baltimore, MD</div>
                   </div>
                 </div>
               </div>
@@ -444,31 +442,10 @@ function App() {
           <div className="exp-header">
             <div className="block-num-exp">04</div>
             <h2 className="exp-title">WORK EXPERIENCE</h2>
-            <div className="exp-subtitle">{'// 3 Companies • 5+ Years • Real-time Systems'}</div>
+            <div className="exp-subtitle">{'// 2 Companies • 5+ Years • Real-time Systems'}</div>
           </div>
 
           <div className="timeline">
-            <div className="timeline-item orange-timeline">
-              <div className="timeline-marker">
-                <div className="marker-dot"></div>
-                <div className="marker-line"></div>
-              </div>
-              <div className="timeline-content">
-                <div className="timeline-date">JAN 2025 - Present</div>
-                <h3 className="timeline-company">THE CIGNA GROUP</h3>
-                <h4 className="timeline-role">Data Engineer</h4>
-                <p className="timeline-desc">
-                  Automated the ingestion and processing of high volume X12 health care EDI files using Python and T-SQL, enhancing data delivery efficiency and ensuring 100% compliance with HIPAA security protocols for business critical claims data.
-                </p>
-                <div className="timeline-tags">
-                  <span className="tag">Azure</span>
-                  <span className="tag">Python</span>
-                  <span className="tag">SQL Server</span>
-                  <span className="tag">ETL</span>
-                </div>
-              </div>
-            </div>
-
             <div className="timeline-item blue-timeline">
               <div className="timeline-marker">
                 <div className="marker-dot"></div>
@@ -495,7 +472,7 @@ function App() {
                 <div className="marker-dot"></div>
               </div>
               <div className="timeline-content">
-                <div className="timeline-date">Jun 2019 - APR 2021</div>
+                <div className="timeline-date">Sep 2018 - APR 2021</div>
                 <h3 className="timeline-company">TECH MAHINDRA</h3>
                 <h4 className="timeline-role">Junior Data Engineer</h4>
                 <p className="timeline-desc">
@@ -530,7 +507,8 @@ function App() {
           </div>
 
           <div className="projects-grid">
-            <div className="project-card neon-card-1">
+            {/* Project 1: Real-time Weather Data Pipeline */}
+            <a href="https://github.com/Dileepanagandula03/weather-pipeline-project" target="_blank" rel="noopener noreferrer" className="project-card neon-card-1" style={{textDecoration: 'none'}}>
               <div className="project-number">01</div>
               <div className="project-icon">⚡</div>
               <h3 className="project-name">REAL-TIME WEATHER DATA PIPELINE</h3>
@@ -559,9 +537,10 @@ function App() {
                 <span>Stream Analytics</span>
                 <span>Data Factory</span>
               </div>
-            </div>
+            </a>
 
-            <div className="project-card neon-card-2">
+            {/* Project 2: Capstone Project */}
+            <a href="https://github.com/Dileepanagandula03/Capstone-Data-Engineering-Pipelines" target="_blank" rel="noopener noreferrer" className="project-card neon-card-2" style={{textDecoration: 'none'}}>
               <div className="project-number">02</div>
               <div className="project-icon">🚀</div>
               <h3 className="project-name">CAPSTONE PROJECT</h3>
@@ -590,7 +569,67 @@ function App() {
                 <span>Cloud</span>
                 <span>CI/CD</span>
               </div>
-            </div>
+            </a>
+
+            {/* Project 3: Smart Email Resume Sender */}
+            <a href="https://github.com/Dileepanagandula03/resume-sender" target="_blank" rel="noopener noreferrer" className="project-card neon-card-1" style={{textDecoration: 'none'}}>
+              <div className="project-number">03</div>
+              <div className="project-icon">📧</div>
+              <h3 className="project-name">SMART EMAIL RESUME SENDER</h3>
+              <p className="project-desc">
+                I built a small project called "Smart Email Resume Sender" I can attach the resume and emails by following 4 conditions 1. Manual way 2. Bulk way 3. Schedule way 4. Scrapping way  from my application using GCP cloud. Instead of spending 5–7 minutes crafting each email, I can now send a emails by attachings resumes and images etc , consistent outreach in under a minute. The stack includes Python, Gmail API + OAuth2 on GCP for secure sending, and template functions for different profiles.
+              </p>
+              <div className="project-metrics">
+                <div className="metric">
+                  <div className="metric-val">Under 1 min</div>
+                  <div className="metric-lbl">Per Email</div>
+                </div>
+                <div className="metric">
+                  <div className="metric-val">Gmail API</div>
+                  <div className="metric-lbl">OAuth2</div>
+                </div>
+                <div className="metric">
+                  <div className="metric-val">Python</div>
+                  <div className="metric-lbl">Automation</div>
+                </div>
+              </div>
+              <div className="project-tech">
+                <span>Python</span>
+                <span>Gmail API</span>
+                <span>GCP</span>
+                <span>OAuth2</span>
+              </div>
+            </a>
+
+            {/* Project 4: Resume Engine */}
+            <a href="https://github.com/Dileepanagandula03/resume-engine" target="_blank" rel="noopener noreferrer" className="project-card neon-card-2" style={{textDecoration: 'none'}}>
+              <div className="project-number">04</div>
+              <div className="project-icon">🤖</div>
+              <h3 className="project-name">RESUME ENGINE</h3>
+              <p className="project-desc">
+                I Built a Resume Engine Instead of Updating a Word Doc. I was spending 30+ minutes tailoring my resume for every job application. As a Data Engineer, I work with ETL pipelines every day. Extract → Parse the Job Description, Transform → AI rewrites Resume using exact JD language, Load → Export ATS-optimized PDF. Results: 30 minutes → Under 2 minutes per resume. ATS score improved by 25-40%.
+              </p>
+              <div className="project-metrics">
+                <div className="metric">
+                  <div className="metric-val">Under 2 min</div>
+                  <div className="metric-lbl">Per Resume</div>
+                </div>
+                <div className="metric">
+                  <div className="metric-val">25-40%</div>
+                  <div className="metric-lbl">ATS Improvement</div>
+                </div>
+                <div className="metric">
+                  <div className="metric-val">GPT-4o-mini</div>
+                  <div className="metric-lbl">AI Powered</div>
+                </div>
+              </div>
+              <div className="project-tech">
+                <span>Python</span>
+                <span>OpenAI GPT-4o-mini</span>
+                <span>python-docx</span>
+                <span>ATS Optimization</span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -634,7 +673,7 @@ function App() {
           </div>
 
           <div className="contact-footer">
-            <p>© 2026 Dileep Anagandula • Data Engineer • Austin, Texas</p>
+            <p>© 2026 Dileep Anagandula • Data Engineer • Baltimore, MD</p>
           </div>
         </div>
       </section>
