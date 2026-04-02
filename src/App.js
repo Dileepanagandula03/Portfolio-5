@@ -29,7 +29,7 @@ function App() {
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="/Dileep__DataEngineer.pdf" download className="btn-outline"> Download Resume</a>
+            <a href="./Dileep__DataEngineer.pdf" download className="btn-outline"> Download Resume</a>
           </div>
         </div>
       </nav>
@@ -104,7 +104,7 @@ function App() {
             <div className="hero-buttons">
               <a href="#projects" className="btn-primary">🚀 View Projects</a>
               <a href="#contact" className="btn-secondary">💬 Get in Touch</a>
-              <a href="/Dileep__DataEngineer.pdf" download className="btn-outline">📥 Download Resume</a>
+              <a href="./Dileep__DataEngineer.pdf" download className="btn-outline">📥 Download Resume</a>
             </div>
           </div>
 
@@ -166,7 +166,7 @@ function App() {
               <div className="photo-geometric">
                 <div className="photo-bg-orange"></div>
                 <div className="photo-frame-v2">
-                  <img src="/profile-about.jpg" alt="Dileep Anagandula" />
+                  <img src="./profile-about.jpg" alt="Dileep Anagandula" />
                 </div>
                 <div className="red-stripe-overlay"></div>
                 <div className="photo-label">SENIOR DATA ENGINEER</div>
@@ -425,6 +425,145 @@ function App() {
                     <div className="skill-fill" style={{width: '78%'}}></div>
                   </div>
                   <span className="skill-level">PROFICIENT</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            {/* BLOCK 3.5: TECH STACK - PORTFOLIO BUILT WITH */}
+      <section className="block skills-block" id="techstack">
+        <div className="skills-geo">
+          <div className="tech-circle-1"></div>
+          <div className="tech-circle-2"></div>
+          <div className="tech-grid-bg"></div>
+        </div>
+
+        <div className="skills-content">
+          <div className="skills-header">
+            <div className="block-num-skills">03.5</div>
+            <h2 className="skills-title">PORTFOLIO TECH STACK</h2>
+            <div className="skills-subtitle">{'// What I Used To Build This Portfolio'}</div>
+          </div>
+
+          <div className="skills-grid">
+            <div className="skill-category cyan-cat">
+              <div className="cat-header">
+                <div className="cat-icon">⚛️</div>
+                <h3>FRONTEND FRAMEWORK</h3>
+              </div>
+              <div className="skill-items">
+                <div className="skill-item">
+                  <span className="skill-name">React.js 19</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '95%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">JavaScript (ES6)</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">HTML5 & CSS3</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '88%'}}></div>
+                  </div>
+                  <span className="skill-level">PROFICIENT</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skill-category orange-cat">
+              <div className="cat-header">
+                <div className="cat-icon">🎨</div>
+                <h3>STYLING & ANIMATIONS</h3>
+              </div>
+              <div className="skill-items">
+                <div className="skill-item">
+                  <span className="skill-name">CSS Flexbox & Grid</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '92%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">Framer Motion</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-level">PROFICIENT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">React Spring</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '80%'}}></div>
+                  </div>
+                  <span className="skill-level">PROFICIENT</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skill-category green-cat">
+              <div className="cat-header">
+                <div className="cat-icon">🛠️</div>
+                <h3>DEVELOPMENT TOOLS</h3>
+              </div>
+              <div className="skill-items">
+                <div className="skill-item">
+                  <span className="skill-name">VS Code</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '95%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">Git & GitHub</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">npm</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '88%'}}></div>
+                  </div>
+                  <span className="skill-level">PROFICIENT</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skill-category purple-cat">
+              <div className="cat-header">
+                <div className="cat-icon">🚀</div>
+                <h3>DEPLOYMENT</h3>
+              </div>
+              <div className="skill-items">
+                <div className="skill-item">
+                  <span className="skill-name">Netlify</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '95%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">GitHub Pages</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-level">PROFICIENT</span>
+                </div>
+                <div className="skill-item">
+                  <span className="skill-name">gh-pages</span>
+                  <div className="skill-bar">
+                    <div className="skill-fill" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-level">EXPERT</span>
                 </div>
               </div>
             </div>
